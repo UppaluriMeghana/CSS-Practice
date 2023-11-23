@@ -1,0 +1,103 @@
+/* boilerplate code for css */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box ;
+}
+
+html,body{
+    width:100%;
+    height:100%;
+    font-family: 'Kanit', sans-serif;
+}
+#main{
+    width:100%;
+    height:100%;
+    background-color: white;
+}
+#nav{
+    width:100%;
+    height:100px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 30px;
+    padding: 0 30px;
+}
+#nav h4{
+    font-size: 20px;
+    font-weight:600;
+}
+#nav i{
+    background-color: black;
+    color: white;
+    font-size: 25px;
+    padding: 10px;
+    border-radius: 50%;
+    font-weight:500;
+}
+#center{
+    /* height: 40%; no need to give height, it will take as per child's position */
+    width: 100%;
+    background-color: white;
+    padding: 40px 80px;
+}
+#center h1{
+    font-size: 80px;
+    font-weight: 550;
+    line-height: 90px;
+}
+
+#in{
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-between;
+}
+
+#in p{
+    font-size: 20px;
+}
+
+#right{
+    width: 20%;   
+}
+
+.ele{
+    padding: 7px 0;
+    border-top: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.ele a{
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.ele i{
+    font-size: 20px;
+    /* opacity: 0; items will hide */
+}
+
+/* .ele:hover i{
+    opacity: 1; here when we hover on it, it will be visible
+} */
+
+.ele:hover{
+    background-color: rgb(238, 230, 230);
+}
+
+.ele:hover a{
+    text-decoration: underline;
+}
+
+#bottom{
+    height: 50%;
+    width : 100%;
+    background: url(https://images.unsplash.com/photo-1536924430914-91f9e2041b83?q=80&w=1288&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    background-position: 0 40%;
+}
